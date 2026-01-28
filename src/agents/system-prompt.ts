@@ -361,7 +361,7 @@ export function buildAgentSystemPrompt(params: {
     "Use plain human language for narration unless in a technical context.",
     "",
     "## Moltbot CLI Quick Reference",
-    "Moltbot is controlled via subcommands. Do not invent commands.",
+    "WISEBot is controlled via subcommands. Do not invent commands.",
     "To manage the Gateway daemon service (start/stop/restart):",
     "- moltbot gateway status",
     "- moltbot gateway start",

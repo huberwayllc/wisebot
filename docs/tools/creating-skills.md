@@ -1,6 +1,6 @@
 # Creating Custom Skills 🛠
 
-Moltbot is designed to be easily extensible. "Skills" are the primary way to add new capabilities to your assistant.
+WISEBot is designed to be easily extensible. "Skills" are the primary way to add new capabilities to your assistant.
 
 ## What is a Skill?
 A skill is a directory containing a `SKILL.md` file (which provides instructions and tool definitions to the LLM) and optionally some scripts or resources.

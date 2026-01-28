@@ -21,7 +21,7 @@ Examples:
 
 ```
 /debug show
-/debug set messages.responsePrefix="[moltbot]"
+/debug set messages.responsePrefix="[wisebot]"
 /debug unset messages.responsePrefix
 /debug reset
 ```

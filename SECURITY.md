@@ -1,6 +1,6 @@
 # Security Policy
 
-If you believe you've found a security issue in Moltbot, please report it privately.
+If you believe you've found a security issue in WISEBot, please report it privately.
 
 ## Reporting
 
@@ -15,13 +15,13 @@ For threat model + hardening guidance (including `moltbot security audit --deep`
 
 ### Web Interface Safety
 
-Moltbot's web interface is intended for local use only. Do **not** bind it to the public internet; it is not hardened for public exposure.
+WISEBot's web interface is intended for local use only. Do **not** bind it to the public internet; it is not hardened for public exposure.
 
 ## Runtime Requirements
 
 ### Node.js Version
 
-Moltbot requires **Node.js 22.12.0 or later** (LTS). This version includes important security patches:
+WISEBot requires **Node.js 22.12.0 or later** (LTS). This version includes important security patches:
 
 - CVE-2025-59466: async_hooks DoS vulnerability
 - CVE-2026-21636: Permission model bypass vulnerability
@@ -34,7 +34,7 @@ node --version  # Should be v22.12.0 or later
 
 ### Docker Security
 
-When running Moltbot in Docker:
+When running WISEBot in Docker:
 
 1. The official image runs as a non-root user (`node`) for reduced attack surface
 2. Use `--read-only` flag when possible for additional filesystem protection

@@ -3,7 +3,7 @@ summary: "Top-level overview of Moltbot, features, and purpose"
 read_when:
   - Introducing Moltbot to newcomers
 ---
-# Moltbot 🦞
+# Moltbot 🦉
 
 > *"EXFOLIATE! EXFOLIATE!"* — A space lobster, probably
 
@@ -233,7 +233,7 @@ Example:
 
 ## License
 
-MIT — Free as a lobster in the ocean 🦞
+MIT — Free as a lobster in the ocean 🦉
 
 ---
 

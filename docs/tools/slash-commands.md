@@ -151,7 +151,7 @@ Examples:
 
 ```
 /debug show
-/debug set messages.responsePrefix="[moltbot]"
+/debug set messages.responsePrefix="[wisebot]"
 /debug set channels.whatsapp.allowFrom=["+1555","+4477"]
 /debug unset messages.responsePrefix
 /debug reset
@@ -171,7 +171,7 @@ Examples:
 /config show
 /config show messages.responsePrefix
 /config get messages.responsePrefix
-/config set messages.responsePrefix="[moltbot]"
+/config set messages.responsePrefix="[wisebot]"
 /config unset messages.responsePrefix
 ```
 

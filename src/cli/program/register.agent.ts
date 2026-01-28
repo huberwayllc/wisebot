@@ -155,7 +155,7 @@ ${theme.muted("Docs:")} ${formatDocsLink("/cli/agent", "docs.molt.bot/cli/agent"
         `
 ${theme.heading("Examples:")}
 ${formatHelpExamples([
-  ['moltbot agents set-identity --agent main --name "Clawd" --emoji "🦞"', "Set name + emoji."],
+  ['moltbot agents set-identity --agent main --name "Clawd" --emoji "🦉"', "Set name + emoji."],
   ["moltbot agents set-identity --agent main --avatar avatars/clawd.png", "Set avatar path."],
   ["moltbot agents set-identity --workspace ~/clawd --from-identity", "Load from IDENTITY.md."],
   [

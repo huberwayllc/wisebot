@@ -28,7 +28,7 @@ It flags common footguns (Gateway auth exposure, browser control exposure, eleva
 
 Running an AI agent with shell access on your machine is... *spicy*. Here’s how to not get pwned.
 
-Moltbot is both a product and an experiment: you’re wiring frontier-model behavior into real messaging surfaces and real tools. **There is no “perfectly secure” setup.** The goal is to be deliberate about:
+WISEBot is both a product and an experiment: you’re wiring frontier-model behavior into real messaging surfaces and real tools. **There is no “perfectly secure” setup.** The goal is to be deliberate about:
 - who can talk to your bot
 - where the bot is allowed to act
 - what the bot can touch
@@ -291,7 +291,7 @@ Assume “compromised” means: someone got into a room that can trigger the bot
 
 ## Lessons Learned (The Hard Way)
 
-### The `find ~` Incident 🦞
+### The `find ~` Incident 🦉
 
 On Day 1, a friendly tester asked Clawd to run `find ~` and share the output. Clawd happily dumped the entire home directory structure to a group chat.
 
@@ -757,4 +757,4 @@ Found a vulnerability in Moltbot? Please report responsibly:
 
 *"Security is a process, not a product. Also, don't trust lobsters with shell access."* — Someone wise, probably
 
-🦞🔐
+🦉🔐

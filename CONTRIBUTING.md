@@ -1,6 +1,6 @@
-# Contributing to Moltbot
+# Contributing to WISEBot
 
-Welcome to the lobster tank! 🦞
+Welcome to the lobster tank! 🦉
 
 ## Quick Links
 - **GitHub:** https://github.com/moltbot/moltbot
@@ -24,7 +24,7 @@ Welcome to the lobster tank! 🦞
 3. **Questions** → Discord #setup-help
 
 ## Before You PR
-- Test locally with your Moltbot instance
+- Test locally with your WISEBot instance
 - Run linter: `npm run lint`
 - Keep PRs focused (one thing per PR)
 - Describe what & why

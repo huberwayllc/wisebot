@@ -27,7 +27,7 @@ If you want a higher-level overview first, start with:
 
 ## Source of truth: the Gateway
 
-Moltbot is designed around a single **Gateway process** that owns session state.
+WISEBot is designed around a single **Gateway process** that owns session state.
 
 - UIs (macOS app, web Control UI, TUI) should query the Gateway for session lists and token counts.
 - In remote mode, session files are on the remote host; “checking your local Mac files” won’t reflect what the Gateway is using.

@@ -851,7 +851,7 @@ For security guidance, read [Security](/gateway/security).
 
 ### What are the minimum VPS requirements and recommended OS
 
-Moltbot is lightweight. For a basic Gateway + one chat channel:
+WISEBot is lightweight. For a basic Gateway + one chat channel:
 
 - **Absolute minimum:** 1 vCPU, 1GB RAM, ~500MB disk.
 - **Recommended:** 1-2 vCPU, 2GB RAM or more for headroom (logs, media, multiple channels). Node tools and browser automation can be resource hungry.
@@ -878,11 +878,11 @@ If you are running macOS in a VM, see [macOS VM](/platforms/macos-vm).
 
 ### What is Moltbot in one paragraph
 
-Moltbot is a personal AI assistant you run on your own devices. It replies on the messaging surfaces you already use (WhatsApp, Telegram, Slack, Mattermost (plugin), Discord, Google Chat, Signal, iMessage, WebChat) and can also do voice + a live Canvas on supported platforms. The **Gateway** is the always-on control plane; the assistant is the product.
+WISEBot is a personal AI assistant you run on your own devices. It replies on the messaging surfaces you already use (WhatsApp, Telegram, Slack, Mattermost (plugin), Discord, Google Chat, Signal, iMessage, WebChat) and can also do voice + a live Canvas on supported platforms. The **Gateway** is the always-on control plane; the assistant is the product.
 
 ### Whats the value proposition
 
-Moltbot is not “just a Claude wrapper.” It’s a **local-first control plane** that lets you run a
+WISEBot is not “just a Claude wrapper.” It’s a **local-first control plane** that lets you run a
 capable assistant on **your own hardware**, reachable from the chat apps you already use, with
 stateful sessions, memory, and tools - without handing control of your workflows to a hosted
 SaaS.
@@ -935,7 +935,7 @@ Docs: [Security](/gateway/security).
 
 ### What are the advantages vs Claude Code for web development
 
-Moltbot is a **personal assistant** and coordination layer, not an IDE replacement. Use
+WISEBot is a **personal assistant** and coordination layer, not an IDE replacement. Use
 Claude Code or Codex for the fastest direct coding loop inside a repo. Use Moltbot when you
 want durable memory, cross-device access, and tool orchestration.
 

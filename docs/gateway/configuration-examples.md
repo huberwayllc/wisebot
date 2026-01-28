@@ -27,7 +27,7 @@ Save to `~/.clawdbot/moltbot.json` and you can DM the bot from that number.
   identity: {
     name: "Clawd",
     theme: "helpful assistant",
-    emoji: "🦞"
+    emoji: "🦉"
   },
   agent: {
     workspace: "~/clawd",
@@ -93,7 +93,7 @@ Save to `~/.clawdbot/moltbot.json` and you can DM the bot from that number.
 
   // Message formatting
   messages: {
-    messagePrefix: "[moltbot]",
+    messagePrefix: "[wisebot]",
     responsePrefix: ">",
     ackReaction: "👀",
     ackReactionScope: "group-mentions"

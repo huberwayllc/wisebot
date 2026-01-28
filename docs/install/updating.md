@@ -7,7 +7,7 @@ read_when:
 
 # Updating
 
-Moltbot is moving fast (pre “1.0”). Treat updates like shipping infra: update → run checks → restart (or use `moltbot update`, which restarts) → verify.
+WISEBot is moving fast (pre “1.0”). Treat updates like shipping infra: update → run checks → restart (or use `moltbot update`, which restarts) → verify.
 
 ## Recommended: re-run the website installer (upgrade in place)
 

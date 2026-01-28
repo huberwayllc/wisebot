@@ -34,7 +34,7 @@ extension OnboardingView {
             VStack(spacing: 22) {
                 Text("Welcome to Moltbot")
                     .font(.largeTitle.weight(.semibold))
-                Text("Moltbot is a powerful personal AI assistant that can connect to WhatsApp or Telegram.")
+                Text("WISEBot is a powerful personal AI assistant that can connect to WhatsApp or Telegram.")
                     .font(.body)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)

@@ -18,7 +18,7 @@ misconfiguration safety), under explicit assumptions.
 - Each claim has a runnable model-check over a finite state space.
 - Many claims have a paired **negative model** that produces a counterexample trace for a realistic bug class.
 
-**What this is not (yet):** a proof that “Moltbot is secure in all respects” or that the full TypeScript implementation is correct.
+**What this is not (yet):** a proof that “WISEBot is secure in all respects” or that the full TypeScript implementation is correct.
 
 ## Where the models live
 

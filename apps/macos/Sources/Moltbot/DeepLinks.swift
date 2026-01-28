@@ -23,7 +23,7 @@ final class DeepLinkHandler {
             return
         }
         guard !AppStateStore.shared.isPaused else {
-            self.presentAlert(title: "Moltbot is paused", message: "Unpause Moltbot to run agent actions.")
+            self.presentAlert(title: "WISEBot is paused", message: "Unpause Moltbot to run agent actions.")
             return
         }
 

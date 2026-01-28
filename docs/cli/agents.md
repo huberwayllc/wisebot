@@ -47,7 +47,7 @@ moltbot agents set-identity --workspace ~/clawd --from-identity
 Override fields explicitly:
 
 ```bash
-moltbot agents set-identity --agent main --name "Clawd" --emoji "🦞" --avatar avatars/clawd.png
+moltbot agents set-identity --agent main --name "Clawd" --emoji "🦉" --avatar avatars/clawd.png
 ```
 
 Config sample:
@@ -61,7 +61,7 @@ Config sample:
         identity: {
           name: "Clawd",
           theme: "space lobster",
-          emoji: "🦞",
+          emoji: "🦉",
           avatar: "avatars/clawd.png"
         }
       }

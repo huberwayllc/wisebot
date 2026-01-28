@@ -15,7 +15,7 @@ Moltbot has three related (but different) controls:
 
 ## Quick debug
 
-Use the inspector to see what Moltbot is *actually* doing:
+Use the inspector to see what WISEBot is *actually* doing:
 
 ```bash
 moltbot sandbox explain
