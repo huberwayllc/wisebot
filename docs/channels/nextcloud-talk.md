@@ -29,7 +29,7 @@ Details: [Plugins](/plugin)
 1) Install the Nextcloud Talk plugin.
 2) On your Nextcloud server, create a bot:
    ```bash
-   ./occ talk:bot:install "Moltbot" "<shared-secret>" "<webhook-url>" --feature reaction
+   ./occ talk:bot:install "WISEBot" "<shared-secret>" "<webhook-url>" --feature reaction
    ```
 3) Enable the bot in the target room settings.
 4) Configure Moltbot:

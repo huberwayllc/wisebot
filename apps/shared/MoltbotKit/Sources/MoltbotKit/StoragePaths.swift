@@ -8,7 +8,7 @@ public enum MoltbotNodeStorage {
                 NSLocalizedDescriptionKey: "Application Support directory unavailable",
             ])
         }
-        return base.appendingPathComponent("Moltbot", isDirectory: true)
+        return base.appendingPathComponent("WISEBot", isDirectory: true)
     }
 
     public static func canvasRoot(sessionKey: String) throws -> URL {
@@ -25,7 +25,7 @@ public enum MoltbotNodeStorage {
                 NSLocalizedDescriptionKey: "Caches directory unavailable",
             ])
         }
-        return base.appendingPathComponent("Moltbot", isDirectory: true)
+        return base.appendingPathComponent("WISEBot", isDirectory: true)
     }
 
     public static func canvasSnapshotsRoot(sessionKey: String) throws -> URL {

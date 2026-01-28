@@ -155,12 +155,12 @@ user scopes if you plan to configure a user token.
 ```json
 {
   "display_information": {
-    "name": "Moltbot",
+    "name": "WISEBot",
     "description": "Slack connector for Moltbot"
   },
   "features": {
     "bot_user": {
-      "display_name": "Moltbot",
+      "display_name": "WISEBot",
       "always_online": false
     },
     "app_home": {

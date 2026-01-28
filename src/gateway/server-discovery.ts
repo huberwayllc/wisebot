@@ -13,7 +13,7 @@ export type ResolveBonjourCliPathOptions = {
 
 export function formatBonjourInstanceName(displayName: string) {
   const trimmed = displayName.trim();
-  if (!trimmed) return "Moltbot";
+  if (!trimmed) return "WISEBot";
   if (/moltbot/i.test(trimmed)) return trimmed;
   return `${trimmed} (Moltbot)`;
 }

@@ -289,7 +289,7 @@ Minimal, valid example with the required fields. Replace IDs and URLs.
   "manifestVersion": "1.23",
   "version": "1.0.0",
   "id": "00000000-0000-0000-0000-000000000000",
-  "name": { "short": "Moltbot" },
+  "name": { "short": "WISEBot" },
   "developer": {
     "name": "Your Org",
     "websiteUrl": "https://example.com",

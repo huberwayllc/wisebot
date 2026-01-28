@@ -92,7 +92,7 @@ Example:
       "privateKey": "${NOSTR_PRIVATE_KEY}",
       "profile": {
         "name": "moltbot",
-        "displayName": "Moltbot",
+        "displayName": "WISEBot",
         "about": "Personal assistant DM bot",
         "picture": "https://example.com/avatar.png",
         "banner": "https://example.com/banner.png",

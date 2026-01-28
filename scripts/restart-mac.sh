@@ -132,12 +132,12 @@ kill_all_moltbot() {
     pkill -f "${DEBUG_PROCESS_PATTERN}" 2>/dev/null || true
     pkill -f "${LOCAL_PROCESS_PATTERN}" 2>/dev/null || true
     pkill -f "${RELEASE_PROCESS_PATTERN}" 2>/dev/null || true
-    pkill -x "Moltbot" 2>/dev/null || true
+    pkill -x "WISEBot" 2>/dev/null || true
     if ! pgrep -f "${APP_PROCESS_PATTERN}" >/dev/null 2>&1 \
        && ! pgrep -f "${DEBUG_PROCESS_PATTERN}" >/dev/null 2>&1 \
        && ! pgrep -f "${LOCAL_PROCESS_PATTERN}" >/dev/null 2>&1 \
        && ! pgrep -f "${RELEASE_PROCESS_PATTERN}" >/dev/null 2>&1 \
-       && ! pgrep -x "Moltbot" >/dev/null 2>&1; then
+       && ! pgrep -x "WISEBot" >/dev/null 2>&1; then
       return 0
     fi
     sleep 0.3

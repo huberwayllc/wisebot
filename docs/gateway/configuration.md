@@ -2811,7 +2811,7 @@ If unset, clients fall back to a muted light-blue.
     // Optional: Control UI assistant identity override.
     // If unset, the Control UI uses the active agent identity (config or IDENTITY.md).
     assistant: {
-      name: "Moltbot",
+      name: "WISEBot",
       avatar: "CB" // emoji, short text, or image URL/data URI
     }
   }

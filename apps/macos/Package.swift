@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "Moltbot",
+    name: "WISEBot",
     platforms: [
         .macOS(.v15),
     ],
     products: [
         .library(name: "MoltbotIPC", targets: ["MoltbotIPC"]),
         .library(name: "MoltbotDiscovery", targets: ["MoltbotDiscovery"]),
-        .executable(name: "Moltbot", targets: ["Moltbot"]),
+        .executable(name: "WISEBot", targets: ["WISEBot"]),
         .executable(name: "moltbot-mac", targets: ["MoltbotMacCLI"]),
     ],
     dependencies: [
@@ -40,7 +40,7 @@ let package = Package(
                 .enableUpcomingFeature("StrictConcurrency"),
             ]),
         .executableTarget(
-            name: "Moltbot",
+            name: "WISEBot",
             dependencies: [
                 "MoltbotIPC",
                 "MoltbotDiscovery",
@@ -80,7 +80,7 @@ let package = Package(
             name: "MoltbotIPCTests",
             dependencies: [
                 "MoltbotIPC",
-                "Moltbot",
+                "WISEBot",
                 "MoltbotDiscovery",
                 .product(name: "MoltbotProtocol", package: "MoltbotKit"),
                 .product(name: "SwabbleKit", package: "swabble"),

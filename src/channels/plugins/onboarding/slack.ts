@@ -37,7 +37,7 @@ function setSlackDmPolicy(cfg: MoltbotConfig, dmPolicy: DmPolicy) {
 }
 
 function buildSlackManifest(botName: string) {
-  const safeName = botName.trim() || "Moltbot";
+  const safeName = botName.trim() || "WISEBot";
   const manifest = {
     display_information: {
       name: safeName,
@@ -364,7 +364,7 @@ export const slackOnboardingAdapter: ChannelOnboardingAdapter = {
     const slackBotName = String(
       await prompter.text({
         message: "Slack bot display name (used for manifest)",
-        initialValue: "Moltbot",
+        initialValue: "WISEBot",
       }),
     ).trim();
     if (!accountConfigured) {

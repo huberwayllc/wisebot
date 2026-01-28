@@ -13,7 +13,7 @@ Status: external CLI integration. Gateway talks to `signal-cli` over HTTP JSON-R
 1) Use a **separate Signal number** for the bot (recommended).
 2) Install `signal-cli` (Java required).
 3) Link the bot device and start the daemon:
-   - `signal-cli link -n "Moltbot"`
+   - `signal-cli link -n "WISEBot"`
 4) Configure Moltbot and start the gateway.
 
 Minimal config:
@@ -54,7 +54,7 @@ Disable with:
 ## Setup (fast path)
 1) Install `signal-cli` (Java required).
 2) Link a bot account:
-   - `signal-cli link -n "Moltbot"` then scan the QR in Signal.
+   - `signal-cli link -n "WISEBot"` then scan the QR in Signal.
 3) Configure Signal and start the gateway.
 
 Example:

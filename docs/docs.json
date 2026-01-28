@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Moltbot",
+  "name": "WISEBot",
   "theme": "mint",
   "logo": {
     "light": "/assets/pixel-lobster.svg",
